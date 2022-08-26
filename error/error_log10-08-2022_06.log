@@ -1,0 +1,84 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":27,"error_msg":"Group authorization failed: method is unavailable with group auth.","request_params":[{"key":"method","value":"wall.get"},{"key":"oauth","value":"1"},{"key":"domain","value":"public176743770"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-1930395838"}]}}
+[Exception]: код ошибки: 27
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(21): DigitalStar\vk_api\vk_api->request('wall.get', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(20): SendRndPost(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":27,"error_msg":"Group authorization failed: method is unavailable with group auth.","request_params":[{"key":"method","value":"wall.get"},{"key":"oauth","value":"1"},{"key":"domain","value":"public176743770"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-1187811070"}]}}
+[Exception]: код ошибки: 27
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(21): DigitalStar\vk_api\vk_api->request('wall.get', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(20): SendRndPost(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":27,"error_msg":"Group authorization failed: method is unavailable with group auth.","request_params":[{"key":"method","value":"wall.get"},{"key":"oauth","value":"1"},{"key":"domain","value":"public176743770"},{"key":"v","value":"5.103"},{"key":"random_id","value":"2099762720"}]}}
+[Exception]: код ошибки: 27
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(21): DigitalStar\vk_api\vk_api->request('wall.get', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(20): SendRndPost(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":27,"error_msg":"Group authorization failed: method is unavailable with group auth.","request_params":[{"key":"method","value":"wall.get"},{"key":"oauth","value":"1"},{"key":"domain","value":"public176743770"},{"key":"v","value":"5.103"},{"key":"random_id","value":"1470688631"}]}}
+[Exception]: код ошибки: 27
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(21): DigitalStar\vk_api\vk_api->request('wall.get', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(20): SendRndPost(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":27,"error_msg":"Group authorization failed: method is unavailable with group auth.","request_params":[{"key":"method","value":"wall.get"},{"key":"oauth","value":"1"},{"key":"domain","value":"public176743770"},{"key":"v","value":"5.103"},{"key":"random_id","value":"2061098563"}]}}
+[Exception]: код ошибки: 27
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(21): DigitalStar\vk_api\vk_api->request('wall.get', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(20): SendRndPost(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":27,"error_msg":"Group authorization failed: method is unavailable with group auth.","request_params":[{"key":"method","value":"wall.get"},{"key":"oauth","value":"1"},{"key":"domain","value":"public176743770"},{"key":"v","value":"5.103"},{"key":"random_id","value":"140344201"}]}}
+[Exception]: код ошибки: 27
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(21): DigitalStar\vk_api\vk_api->request('wall.get', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(20): SendRndPost(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":27,"error_msg":"Group authorization failed: method is unavailable with group auth.","request_params":[{"key":"method","value":"wall.get"},{"key":"oauth","value":"1"},{"key":"domain","value":"public176743770"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-475778170"}]}}
+[Exception]: код ошибки: 27
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(21): DigitalStar\vk_api\vk_api->request('wall.get', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(20): SendRndPost(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":27,"error_msg":"Group authorization failed: method is unavailable with group auth.","request_params":[{"key":"method","value":"wall.get"},{"key":"oauth","value":"1"},{"key":"domain","value":"public176743770"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-1221744321"}]}}
+[Exception]: код ошибки: 27
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(21): DigitalStar\vk_api\vk_api->request('wall.get', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(20): SendRndPost(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":27,"error_msg":"Group authorization failed: method is unavailable with group auth.","request_params":[{"key":"method","value":"wall.get"},{"key":"oauth","value":"1"},{"key":"domain","value":"public176743770"},{"key":"v","value":"5.103"},{"key":"random_id","value":"2139456978"}]}}
+[Exception]: код ошибки: 27
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(21): DigitalStar\vk_api\vk_api->request('wall.get', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(20): SendRndPost(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":27,"error_msg":"Group authorization failed: method is unavailable with group auth.","request_params":[{"key":"method","value":"wall.get"},{"key":"oauth","value":"1"},{"key":"domain","value":"public176743770"},{"key":"v","value":"5.103"},{"key":"random_id","value":"385279371"}]}}
+[Exception]: код ошибки: 27
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(21): DigitalStar\vk_api\vk_api->request('wall.get', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(20): SendRndPost(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":27,"error_msg":"Group authorization failed: method is unavailable with group auth.","request_params":[{"key":"method","value":"wall.get"},{"key":"oauth","value":"1"},{"key":"domain","value":"public176743770"},{"key":"v","value":"5.103"},{"key":"random_id","value":"952642606"}]}}
+[Exception]: код ошибки: 27
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(21): DigitalStar\vk_api\vk_api->request('wall.get', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(20): SendRndPost(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":27,"error_msg":"Group authorization failed: method is unavailable with group auth.","request_params":[{"key":"method","value":"wall.get"},{"key":"oauth","value":"1"},{"key":"domain","value":"public176743770"},{"key":"v","value":"5.103"},{"key":"random_id","value":"660884268"}]}}
+[Exception]: код ошибки: 27
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(21): DigitalStar\vk_api\vk_api->request('wall.get', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(20): SendRndPost(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}

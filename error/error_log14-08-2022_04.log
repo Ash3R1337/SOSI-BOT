@@ -1,0 +1,120 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-167890350"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-1435934253"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"1961832400"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"1559873765"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"153490320"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-938281818"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"2020785469"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-2041417280"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-79444020"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"981460286"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"2041455538"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"1896655632"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"1978533120"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"1793127587"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-884162471"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(392): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(30): DigitalStar\vk_api\vk_api->sendMessage(307155262, NULL)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(23): SendRndPost(307155262, Object(DigitalStar\vk_api\vk_api), 'vk1.a.5wn5GqFnY...', '214838056')
+#3 {main}

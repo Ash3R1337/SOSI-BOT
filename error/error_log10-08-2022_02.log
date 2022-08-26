@@ -1,0 +1,18 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"keyboard","value":"{\"one_time\":false,\"buttons\":[[{\"action\":{\"type\":\"text\",\"payload\":\"{\\\"command\\\":\\\"btn_rndWall\\\"}\",\"label\":\"\u0421\u043b\u0443\u0447\u0430\u0439\u043d\u044b\u0439 \u043f\u043e\u0441\u0442\"},\"color\":\"negative\"}]],\"inline\":true}"},{"key":"v","value":"5.103"},{"key":"random_id","value":"1703490687"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(419): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(15): DigitalStar\vk_api\vk_api->sendButton(307155262, '', Array, true)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(9): SendMainButtons(307155262, Object(DigitalStar\vk_api\vk_api))
+#3 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(18): SendWelcome(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#4 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: message is empty or invalid","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"keyboard","value":"{\"one_time\":false,\"buttons\":[[{\"action\":{\"type\":\"text\",\"payload\":\"{\\\"command\\\":\\\"btn_rndWall\\\"}\",\"label\":\"\u0421\u043b\u0443\u0447\u0430\u0439\u043d\u044b\u0439 \u043f\u043e\u0441\u0442\"},\"color\":\"negative\"}]],\"inline\":true}"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-1602432580"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(419): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(15): DigitalStar\vk_api\vk_api->sendButton(307155262, ' ', Array, true)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(9): SendMainButtons(307155262, Object(DigitalStar\vk_api\vk_api))
+#3 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(18): SendWelcome(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#4 {main}

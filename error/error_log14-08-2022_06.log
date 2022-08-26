@@ -1,0 +1,8 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":911,"error_msg":"Keyboard format is invalid: button [3][0] has invalid type","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"keyboard","value":"{\"one_time\":false,\"buttons\":[[{\"action\":{\"type\":null}}],[{\"action\":{\"type\":null}}],[{\"action\":{\"type\":null}}],[{\"action\":{\"type\":null}}],[{\"action\":{\"type\":\"text\",\"payload\":\"{\\\"command\\\":\\\"btn_Back\\\"}\",\"label\":\"\ud83d\udd19 \u041d\u0430\u0437\u0430\u0434\"},\"color\":\"secondary\"}]],\"inline\":false}"},{"key":"v","value":"5.103"},{"key":"random_id","value":"1035075706"}]}}
+[Exception]: код ошибки: 911
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php(419): DigitalStar\vk_api\vk_api->request('messages.send', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/bot.php(37): DigitalStar\vk_api\vk_api->sendButton(307155262, '\xD0\x92\xD1\x8B\xD0\xB1\xD1\x80\xD0\xB0\xD0\xBD\xD0\xB0 ...', Array)
+#2 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(27): SendGameButtons(307155262, Object(DigitalStar\vk_api\vk_api))
+#3 {main}
