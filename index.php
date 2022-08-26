@@ -17,6 +17,9 @@ $token = 'vk1.a.5wn5GqFnYhTP59W6dYFTTjxakrIL__XA1ov3wjycL23jM7xLv8F-uMLoxtR7ogv4
 //$group_id = '176743770';
 $group_id = '214838056';
 $rubric = '';
+$botVersion = '1.0.1';
+$changeLog = "🆕 Версия 1.0 (16.08.22)\n- Запуск бота.\n- Добавлена возможность просматривать случайный пост. \n- Добавлена возможность просматривать случайный пост из разных рубрик (Игры, Персонажи, Другие источники и Предложка)\n
+🆕 Версия 1.0.1 (26.08.22)\n - Добавлена подрубрика DmC в рубрику Игры";
 
 if (mb_strtolower($message_text) == 'начать')
     SendWelcome($peer_id, $user_id, $vk);
@@ -44,6 +47,10 @@ else if (mb_strtolower($message_text) == '🎮 игры')
     }
     else if (mb_strtolower($message_text) == 'devil may cry 5') {
         $rubric = '#dmc5';
+        SendRndRubricPost($peer_id, $vk, $token, $group_id, $rubric);  
+    }
+    else if (mb_strtolower($message_text) == 'dmc') {
+        $rubric = '#dmcreboot';
         SendRndRubricPost($peer_id, $vk, $token, $group_id, $rubric);  
     }
 else if (mb_strtolower($message_text) == '🍨 персонажи')
@@ -109,3 +116,7 @@ else if (mb_strtolower($message_text) == '❤️️ творчество под�
     }
 else if (mb_strtolower($message_text) == '🔙 назад')
     SendMainButtons($peer_id, $vk);
+else if (mb_strtolower($message_text) == 'версия')
+    $vk->sendMessage($peer_id, "Текущая версия бота: $botVersion. История изменений:\n$changeLog");
+    
+    

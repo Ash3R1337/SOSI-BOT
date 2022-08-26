@@ -13,7 +13,8 @@ function SendWelcome($peer_id, $user_id, $vk) {
 function SendMainButtons($peer_id, $vk) {
     $rndPost = $vk->buttonText('Случайный пост', 'primary', ['command' => 'btn_rndPost']);
     $rndRubPost = $vk->buttonText('Рубрики', 'secondary', ['command' => 'btn_rndRubPost']);
-    $vk->sendButton($peer_id, "Выбери, что тебя интересует, с помощью кнопок снизу👇", [[$rndPost], [$rndRubPost]]);
+    $version = $vk->buttonText('Версия', 'secondary', ['command' => 'btn_version']);
+    $vk->sendButton($peer_id, "Выбери, что тебя интересует, с помощью кнопок снизу👇", [[$rndPost], [$rndRubPost], [$version]]);
 }
 
 //Клавиатура с рубликами
@@ -33,8 +34,9 @@ function SendGameButtons($peer_id, $vk) {
     $dmc3 = $vk->buttonText('Devil May Cry 3', 'primary', ['command' => 'btn_dmc3']);
     $dmc4 = $vk->buttonText('Devil May Cry 4', 'primary', ['command' => 'btn_dmc4']);
     $dmc5 = $vk->buttonText('Devil May Cry 5', 'primary', ['command' => 'btn_dmc5']);
+    $dmcreboot = $vk->buttonText('DmC', 'primary', ['command' => 'btn_dmcreboot']);
     $Back = $vk->buttonText('🔙 Назад', 'secondary', ['command' => 'btn_Back']);
-    $vk->sendButton($peer_id, "Выбрана рубрика: Игры", [[$dmc], [$dmc2], [$dmc3], [$dmc4], [$dmc5], [$Back]]);
+    $vk->sendButton($peer_id, "Выбрана рубрика: Игры", [[$dmc], [$dmc2], [$dmc3], [$dmc4], [$dmc5], [$dmcreboot], [$Back]]);
 }
 
 //Клавиатура с персонажами
