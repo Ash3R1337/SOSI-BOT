@@ -58,10 +58,9 @@ function SendCharactersButtons($peer_id, $vk) {
 function SendSourceButtons($peer_id, $vk) {
     $reddit = $vk->buttonText('Reddit', 'primary', ['command' => 'btn_reddit']);
     $twitter = $vk->buttonText('Twitter', 'primary', ['command' => 'btn_twitter']);
-    $facebook = $vk->buttonText('Facebook', 'primary', ['command' => 'btn_facebook']);
     $pinterest = $vk->buttonText('Pinterest', 'primary', ['command' => 'btn_pinterest']);
     $Back = $vk->buttonText('🔙 Назад', 'secondary', ['command' => 'btn_Back']);
-    $vk->sendButton($peer_id, "Выбрана рубрика: Другие ресурсы", [[$reddit], [$twitter], [$facebook], [$pinterest], [$Back]]);
+    $vk->sendButton($peer_id, "Выбрана рубрика: Другие ресурсы", [[$reddit], [$twitter], [$pinterest], [$Back]]);
 }
 
 
@@ -73,25 +72,6 @@ function SendRndPost($peer_id, $vk, $token, $group_id) {
     $rnd = rand(1, count($post)-1); //Выбор случайного поста
     $postId = $post[$rnd]->id; //Id случайно выбранного поста
     $vk->request('messages.send', ['peer_id' => $peer_id, 'attachment' => 'wall-'.$group_id."_$postId"]);
-    //Нахождение последнего поста
-    /*$post = json_decode(file_get_contents("https://api.vk.com/method/wall.get?owner_id=-$group_id&count=2&filter=all&v=5.103&access_token=$token"));
-    $post = $post->response->items; // Получаем массив
-    $lastPostId = $post[1]->id;
-    //Генератор случайного id
-    $rnd = rand(1, $lastPostId);
-    //Проверка на существование поста
-    $currentPost = json_decode(file_get_contents('https://api.vk.com/method/wall.getById?posts=-'.$group_id."_$rnd&extended=0&v=5.103&access_token=$token"));
-    $currentPost = $currentPost->response;
-    $vk->sendMessage($peer_id, strlen($currentPost[0]->id));
-    if ((strlen($currentPost[0]->id) > 0) and ($currentPost[0]->post_type == 'post'))
-        $vk->request('messages.send', ['peer_id' => $peer_id, 'attachment' => 'wall-'.$group_id."_$rnd"]);
-    else
-        SendRndPost($peer_id, $vk, $token, $group_id);*/
-   
-  /* $currentPost = json_decode(file_get_contents('https://api.vk.com/method/wall.getById?posts=-'.$group_id."_$rnd&extended=1&v=5.103&access_token=$token"));
-    $currentPost = $currentPost->response->items;
-    */
-    
 }
 
 //Случайный пост из определенной рубрики
@@ -109,4 +89,70 @@ function SendRndRubricPost($peer_id, $vk, $token, $group_id, $rubric) {
        $postId = $rubricArray[$rnd]->id;
        $vk->request('messages.send', ['peer_id' => $peer_id, 'attachment' => 'wall-'.$group_id."_$postId"]); 
     }
+}
+
+//Скрытие клавиатуры из чата
+function KeyboardHide($peer_id, $vk) {
+    try {
+        $keyboard = json_encode([
+            'one_time' => true,
+            'buttons' => [],
+        ]);
+        $vk->sendButton($peer_id, "Клавиатура скрыта", $keyboard);
+    }   
+    catch (Exception $e) {
+        $vk->sendMessage($peer_id, 'Ошибка: ' . $e->getMessage());
+    }
+}
+
+//Отправка порно картинок
+
+function SendPorn($peer_id, $vk) {
+    try 
+    {
+        $file_contents = file_get_contents('porn.txt');
+        $hentArr = explode(', ', $file_contents);
+        $rnd = rand(0, count($hentArr)-1);
+        if ($peer_id == 2000000003)
+            $vk->request('messages.send', ['peer_id' => $peer_id, 'attachment' => $hentArr[$rnd]]);
+        else
+            $vk->sendMessage($peer_id, "ПОРНО ДОСТУПНО В ПЛАТНОЙ БЕСЕДЕ");
+    }   
+    catch (Exception $e) 
+    {
+        $vk->sendMessage($peer_id, 'Ошибка: '. $e->getMessage());
+        exit;
+    }
+}
+
+function SendPornCount($peer_id, $vk) {
+    $file_contents = file_get_contents('porn.txt');
+    $hentArr = explode(', ', $file_contents);
+    $vk->sendMessage($peer_id, "Количество порно: ".count($hentArr));
+}
+
+//Отправка порно видосов
+
+function SendPornVid($peer_id, $vk) {
+    try 
+    {
+        $file_contents = file_get_contents('vidporn.txt');
+        $hentArr = explode(', ', $file_contents);
+        $rnd = rand(0, count($hentArr)-1);
+        if ($peer_id == 2000000003)
+            $vk->request('messages.send', ['peer_id' => $peer_id, 'attachment' => $hentArr[$rnd]]);
+        else
+            $vk->sendMessage($peer_id, "ПОРНО ДОСТУПНО В ПЛАТНОЙ БЕСЕДЕ");
+    }   
+    catch (Exception $e) 
+    {
+        $vk->sendMessage($peer_id, 'Ошибка: '. $e->getMessage());
+        exit;
+    }
+}
+
+function SendPornVidCount($peer_id, $vk) {
+    $file_contents = file_get_contents('vidporn.txt');
+    $hentArr = explode(', ', $file_contents);
+    $vk->sendMessage($peer_id, "Количество порно видосов: ".count($hentArr));
 }

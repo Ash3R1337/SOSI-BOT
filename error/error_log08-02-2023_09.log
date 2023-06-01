@@ -1,0 +1,56 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":15,"error_msg":"Access denied: message can not be found","request_params":[{"key":"method","value":"messages.delete"},{"key":"oauth","value":"1"},{"key":"message_ids","value":"307155262"},{"key":"delete_for_all","value":"1"},{"key":"peer_id","value":"2000000002"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-1760701671"}]}}
+[Exception]: код ошибки: 15
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(122): DigitalStar\vk_api\vk_api->request('messages.delete', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(119): MuteUser(2000000002, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":15,"error_msg":"Access denied: message can not be found","request_params":[{"key":"method","value":"messages.delete"},{"key":"oauth","value":"1"},{"key":"message_ids","value":"307155262"},{"key":"delete_for_all","value":"1"},{"key":"peer_id","value":"2000000002"},{"key":"v","value":"5.103"},{"key":"random_id","value":"2084275287"}]}}
+[Exception]: код ошибки: 15
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(122): DigitalStar\vk_api\vk_api->request('messages.delete', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(119): MuteUser(2000000002, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":15,"error_msg":"Access denied: message can not be found","request_params":[{"key":"method","value":"messages.delete"},{"key":"oauth","value":"1"},{"key":"message_ids","value":"307155262"},{"key":"delete_for_all","value":"1"},{"key":"peer_id","value":"2000000002"},{"key":"v","value":"5.103"},{"key":"random_id","value":"-972260223"}]}}
+[Exception]: код ошибки: 15
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(122): DigitalStar\vk_api\vk_api->request('messages.delete', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(119): MuteUser(2000000002, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":15,"error_msg":"Access denied: message can not be found","request_params":[{"key":"method","value":"messages.delete"},{"key":"oauth","value":"1"},{"key":"message_ids","value":"307155262"},{"key":"delete_for_all","value":"1"},{"key":"peer_id","value":""},{"key":"v","value":"5.103"},{"key":"random_id","value":"-514386723"}]}}
+[Exception]: код ошибки: 15
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(122): DigitalStar\vk_api\vk_api->request('messages.delete', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(119): MuteUser(NULL, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":15,"error_msg":"Access denied: message can not be found","request_params":[{"key":"method","value":"messages.delete"},{"key":"oauth","value":"1"},{"key":"message_ids","value":"307155262"},{"key":"delete_for_all","value":"1"},{"key":"peer_id","value":"307155262"},{"key":"v","value":"5.103"},{"key":"random_id","value":"1344282920"}]}}
+[Exception]: код ошибки: 15
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(122): DigitalStar\vk_api\vk_api->request('messages.delete', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(119): MuteUser(307155262, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":15,"error_msg":"Access denied: message can not be found","request_params":[{"key":"method","value":"messages.delete"},{"key":"oauth","value":"1"},{"key":"message_ids","value":"307155262"},{"key":"delete_for_all","value":"1"},{"key":"peer_id","value":"2000000002"},{"key":"v","value":"5.103"},{"key":"random_id","value":"784919070"}]}}
+[Exception]: код ошибки: 15
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(122): DigitalStar\vk_api\vk_api->request('messages.delete', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(119): MuteUser(2000000002, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":15,"error_msg":"Access denied: message can not be found","request_params":[{"key":"method","value":"messages.delete"},{"key":"oauth","value":"1"},{"key":"message_ids","value":"307155262"},{"key":"delete_for_all","value":"1"},{"key":"peer_id","value":"2000000002"},{"key":"v","value":"5.103"},{"key":"random_id","value":"1248376244"}]}}
+[Exception]: код ошибки: 15
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(122): DigitalStar\vk_api\vk_api->request('messages.delete', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(119): MuteUser(2000000002, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":15,"error_msg":"Access denied: message can not be found","request_params":[{"key":"method","value":"messages.delete"},{"key":"oauth","value":"1"},{"key":"message_ids","value":"307155262"},{"key":"delete_for_all","value":"1"},{"key":"peer_id","value":"2000000002"},{"key":"v","value":"5.103"},{"key":"random_id","value":"928290069"}]}}
+[Exception]: код ошибки: 15
+[Exception]: файл: /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/simplevk-master/src/vk_api.php:223
+[Exception]: путь ошибки: #0 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(122): DigitalStar\vk_api\vk_api->request('messages.delete', Array)
+#1 /home/f0703521/domains/f0703521.xsph.ru/public_html/bot-example-php-master/www/index.php(119): MuteUser(2000000002, 307155262, Object(DigitalStar\vk_api\vk_api))
+#2 {main}
